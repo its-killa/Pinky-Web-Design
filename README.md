@@ -9,7 +9,7 @@
 
 ## 🔗 Live Demo
 Click here to see the website:
-### [🎀 View Live Website](https://akilla.github.io/sanrio-web-design/)
+### [🎀 View Live Website](https://its-killa.github.io/Pinky-Web-Design/)
 
 ---
 
@@ -17,11 +17,11 @@ Click here to see the website:
 This project is an exploration of **Aesthetic UI/UX Design** combined with technical coding skills. The goal was to move away from boring, rigid layouts and create something dynamic, interactive, and visually pleasing.
 
 ### ✨ Key Features:
-* **🖼️ Interactive Image Slider :** Built with vanilla JavaScript logic.
-* **📱 Fully Responsive :** Looks good on laptops and mobile phones.
-* **💫 Smooth Animations :** CSS floating effects, hover transitions, and bouncy elements.
-* **🎨 Glassmorphism & Pastel UI :** Modern design trends with a cute twist.
-* **🛍️ Pricing Cards :** Custom layout using Flexbox.
+* **🖼️ Interactive Image Slider : ** Built with vanilla JavaScript logic.
+* **📱 Fully Responsive : ** Looks good on laptops and mobile phones.
+* **💫 Smooth Animations : ** CSS floating effects, hover transitions, and bouncy elements.
+* **🎨 Glassmorphism & Pastel UI : ** Modern design trends with a cute twist.
+* **🛍️ Pricing Cards : ** Custom layout using Flexbox.
 
 ---
 
@@ -70,7 +70,7 @@ The website needs images to look cute!
 
 ### 4. Run It! 🏃‍♀️
 * Go to your folder.
-* Double-click `index.html`.
+* Double click `index.html`.
 * Enjoy your cute website! ✨
 
 ---
