@@ -9,7 +9,7 @@
 
 ## 🔗 Live Demo
 Click here to see the website:
-### [🎀 View Live Website](https://akilla.github.io/Pinky-Web-Design/)
+### [🎀 View Live Website](https://its-killa.github.io/Pinky-Web-Design/)
 
 ---
 
