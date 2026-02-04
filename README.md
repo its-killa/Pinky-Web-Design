@@ -17,19 +17,19 @@ Click here to see the website:
 This project is an exploration of **Aesthetic UI/UX Design** combined with technical coding skills. The goal was to move away from boring, rigid layouts and create something dynamic, interactive, and visually pleasing.
 
 ### ✨ Key Features:
-* **🖼️ Interactive Image Slider :** Built with vanilla JavaScript logic.
-* **📱 Fully Responsive :** Looks good on laptops and mobile phones.
-* **💫 Smooth Animations :** CSS floating effects, hover transitions, and bouncy elements.
-* **🎨 Glassmorphism & Pastel UI :** Modern design trends with a cute twist.
-* **🛍️ Pricing Cards :** Custom layout using Flexbox.
+🖼️ Interactive Image Slider :** Built with vanilla JavaScript logic.
+📱 Fully Responsive :** Looks good on laptops and mobile phones.
+💫 Smooth Animations :** CSS floating effects, hover transitions, and bouncy elements.
+🎨 Glassmorphism & Pastel UI :** Modern design trends with a cute twist.
+🛍️ Pricing Cards :** Custom layout using Flexbox.
 
 ---
 
 ## 🛠️ Tech Stack
 This project was created using pure native technologies (No Frameworks):
-* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) **HTML5** - Semantic Structure
-* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) **CSS3** - Styling, Flexbox, Grid, Animations
-* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) **JavaScript (ES6)** - Logic & Interactivity
+ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) **HTML5** - Semantic Structure
+ ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) **CSS3** - Styling, Flexbox, Grid, Animations
+ ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) **JavaScript (ES6)** - Logic & Interactivity
 
 ---
 
