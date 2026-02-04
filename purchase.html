@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Plan - Sanrio Web</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="chica.jpg" alt="Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="purchase.html" class="active">Purchase</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="purchase-section">
+        <div class="decoration-bg">
+            <span class="blob blob-1"></span>
+            <span class="blob blob-3"></span>
+        </div>
+
+        <div class="purchase-header">
+            <h1>Choose Your <br><span>Sweet Plan</span></h1>
+            <p>Unlock more cuteness for your daily designs</p>
+        </div>
+
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <div class="card-icon"><i class="fas fa-cookie-bite"></i></div>
+                <h3>Starter</h3>
+                <div class="price">Rp 50k<span>/bln</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> Akses 100+ Icon Lucu</li>
+                    <li><i class="fas fa-check"></i> Basic Templates</li>
+                    <li><i class="fas fa-check"></i> Community Support</li>
+                    <li class="disabled"><i class="fas fa-times"></i> Custom Request</li>
+                </ul>
+                <button class="btn-plan">Choose Starter</button>
+            </div>
+
+            <div class="pricing-card popular">
+                <div class="popular-badge">Best Choice ✨</div>
+                <div class="card-icon"><i class="fas fa-star"></i></div>
+                <h3>Pro Cutie</h3>
+                <div class="price">Rp 150k<span>/bln</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> <strong>Unlimited</strong> Icon Lucu</li>
+                    <li><i class="fas fa-check"></i> Premium Templates</li>
+                    <li><i class="fas fa-check"></i> Prioritas Support</li>
+                    <li><i class="fas fa-check"></i> 5x Custom Request</li>
+                </ul>
+                <button class="btn-plan btn-popular">Choose Pro</button>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-icon"><i class="fas fa-crown"></i></div>
+                <h3>Ultimate</h3>
+                <div class="price">Rp 300k<span>/bln</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> Semua Fitur Pro</li>
+                    <li><i class="fas fa-check"></i> Source File (Figma/PSD)</li>
+                    <li><i class="fas fa-check"></i> Lisensi Komersial</li>
+                    <li><i class="fas fa-check"></i> VIP Support 24/7</li>
+                </ul>
+                <button class="btn-plan">Choose Ultimate</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="copyright">
+            Copyright 2025 All Rights Reserved Company Name
+        </div>
+    </footer>
+
+
+    <div id="cute-popup" class="popup-container">
+        <div class="popup-content">
+            <img src="chica.jpg" alt="Cute Icon" class="popup-icon">
+            <h3>Coming Soon! ✨</h3>
+            <p>Maaf ya, fitur pembayaran sedang kami racik biar makin manis. Tunggu sebentar lagi ya! 💖</p>
+        </div>
+    </div>
+
+    <script>
+        const popup = document.getElementById('cute-popup');
+        const buttons = document.querySelectorAll('.btn-plan');
+
+        // Fungsi untuk memunculkan notif
+        buttons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                popup.classList.add('show'); // Munculkan popup
+
+                // Hilangkan otomatis setelah 3 detik (3000 ms)
+                setTimeout(() => {
+                    popup.classList.remove('show');
+                }, 3000);
+            });
+        });
+
+        // Kalau popup diklik, langsung hilang (biar ga nunggu lama)
+        popup.addEventListener('click', function() {
+            popup.classList.remove('show');
+        });
+    </script>
+</body>
+</html>
