@@ -63,10 +63,10 @@ You need to create 3 main files inside that folder.
 
 ### 3. Save the Images 🖼️
 The website needs images to look cute!
-1. Right-click on the images in this repository (e.g., `chica.jpg`).
+1. Right click on the images in this repository (e.g., `chica.jpg`).
 2. Choose **"Save Image As..."**.
 3. Save them inside your `My-Cute-Website` folder.
-4. **Important:** Make sure the file names match the code (e.g., `chica.jpg`, not `image(1).jpg`).
+4. **Important :** Make sure the file names match the code (e.g., `chica.jpg`, not `image(1).jpg`).
 
 ### 4. Run It! 🏃‍♀️
 * Go to your folder.
